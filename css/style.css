@@ -1115,3 +1115,20 @@ body.landing #header {
   margin-left: 0;
   padding-left: 0;
 }
+
+.menu_image {
+  display: contents;
+  width: auto;
+  height: 5em;
+}
+.menu_text {
+  font-style: inherit;
+  padding: 0.5em;
+}
+.menu_section {
+  padding: 1em;
+  border-bottom: 1px solid black;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: row;
+}
