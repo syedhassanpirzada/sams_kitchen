@@ -978,7 +978,8 @@ body.landing #header {
 /* Banner */
 
 #banner {
-  background: url("images/overlay.png"), url("../images/banner.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
