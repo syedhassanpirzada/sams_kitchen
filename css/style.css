@@ -1079,7 +1079,7 @@ body.landing #header {
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: yellow;
+  color: orange;
 }
 
 #footer a:active,
