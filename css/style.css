@@ -11,7 +11,7 @@
 /* Basic */
 
 body {
-  background: #ff0;
+  background: orange;
 }
 
 body,
@@ -1133,4 +1133,7 @@ body.landing #header {
   margin-bottom: 1em;
   display: flex;
   flex-direction: row;
+}
+#menuimage {
+  padding: 1em 2em;
 }
