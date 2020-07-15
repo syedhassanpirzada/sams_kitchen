@@ -11,14 +11,14 @@
 /* Basic */
 
 body {
-  background: #fff;
+  background: #ff0;
 }
 
 body,
 input,
 select,
 textarea {
-  color: #444;
+  color: #000;
   font-family: "Lato", Helvetica, sans-serif;
   font-size: 15pt;
   font-weight: 300;
@@ -477,10 +477,10 @@ input[type="radio"] + label:before {
 }
 
 .image.left {
-  float: left;
+  float: middle;
   padding: 0 1.5em 1em 0;
   width: 20%;
-  height: 20%;
+  height: auto;
   top: 0.25em;
 }
 
@@ -498,6 +498,7 @@ input[type="radio"] + label:before {
 .image.left img,
 .image.right img {
   width: 100%;
+  height: auto;
 }
 
 .image.fit {
@@ -898,7 +899,7 @@ body.landing #header {
 }
 
 #header h1 {
-  color: #ffffff;
+  color: white;
   height: inherit;
   left: 2.5em;
   line-height: inherit;
@@ -940,7 +941,7 @@ body.landing #header {
   -o-transition: color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
-  color: #cee8d8;
+  color: white;
   display: inline-block;
   text-decoration: none;
 }
@@ -1022,12 +1023,12 @@ body.landing #header {
 }
 
 .wrapper.style1 {
-  background-color: #ffff00;
-  -moz-background-image: linear-gradient(60deg, #ffff00 50%, #ffff00 50%);
-  -webkit-background-image: linear-gradient(60deg, #ffff00 50%, #ffff00 50%);
-  -o-background-image: linear-gradient(60deg, #ffff00 50%, #ffff00 50%);
-  -ms-background-image: linear-gradient(60deg, #ffff00 50%, #ffff00 50%);
-  background-image: linear-gradient(60deg, #f3e300 50%, #f3e300 50%);
+  background-color: #fff;
+  -moz-background-image: linear-gradient(60deg, #fff 50%, #fff 50%);
+  -webkit-background-image: linear-gradient(60deg, #ffff00 50%, #fff 50%);
+  -o-background-image: linear-gradient(60deg, #ffff00 50%, #fff 50%);
+  -ms-background-image: linear-gradient(60deg, #ffff00 50%, #fff 50%);
+  background-image: linear-gradient(60deg, #ffff00 50%, #ffff00 50%);
   color: #000000;
 }
 
@@ -1061,14 +1062,15 @@ body.landing #header {
 /* Footer */
 
 #footer {
-  background: #ffff00;
+  background: #202222;
   color: #888;
+  padding-top: 4em;
 }
 
 #footer h2,
 #footer h3,
 #footer h4 {
-  color: #000000;
+  color: #fff;
 }
 
 #footer a {
@@ -1077,7 +1079,7 @@ body.landing #header {
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #000000;
+  color: yellow;
 }
 
 #footer a:active,
@@ -1086,13 +1088,13 @@ body.landing #header {
 }
 
 #footer .icons .rounded {
-  border-color: #000000;
+  border-color: #fff;
   font-size: 1.5em;
 }
 
 #footer .icons .rounded:active,
 #footer .icons .rounded:hover {
-  border-color: #000000;
+  border-color: white;
 }
 
 #footer .copyright {
@@ -1119,7 +1121,7 @@ body.landing #header {
 .menu_image {
   display: contents;
   width: auto;
-  height: 5em;
+  height: auto;
 }
 .menu_text {
   font-style: inherit;
