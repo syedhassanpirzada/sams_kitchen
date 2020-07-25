@@ -479,17 +479,20 @@ input[type="radio"] + label:before {
 }
 
 #image.left {
-  float: middle;
-  padding: 0 1.5em 1em 0;
-  width: 20%;
+  position: left;
+  display: block;
+  border-radius: 4px;
+  width: 20em;
   height: auto;
   top: 0.25em;
 }
 
 #image.right {
-  float: right;
-  padding: 0 0 1em 1.5em;
-  top: 0.25em;
+  position: right;
+  display: block;
+  border-radius: 4px;
+  width: 20em;
+  height: auto;
 }
 
 .image.left,
