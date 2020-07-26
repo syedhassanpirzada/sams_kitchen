@@ -11,7 +11,7 @@
 /* Basic */
 
 body {
-  background: orange;
+  background: #ffd700;
 }
 
 body,
@@ -1033,7 +1033,7 @@ body.landing #header {
   -webkit-background-image: linear-gradient(60deg, #ffff00 50%, #fff 50%);
   -o-background-image: linear-gradient(60deg, #ffff00 50%, #fff 50%);
   -ms-background-image: linear-gradient(60deg, #ffff00 50%, #fff 50%);
-  background-image: linear-gradient(60deg, orange 50%, orange 50%);
+  background-image: linear-gradient(60deg, #ffd700 50%, #ffd700 50%);
   color: #000000;
 }
 
@@ -1084,7 +1084,7 @@ body.landing #header {
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: orange;
+  color: #ffd700;
 }
 
 #footer a:active,
